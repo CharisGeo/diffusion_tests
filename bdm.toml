@@ -1,0 +1,23 @@
+[visualization]
+live = true
+export = true
+export_interval = 10
+
+    [[visualize_sim_object]]
+    name = "MyCell"
+    additional_data_members = [ "diameter_", "cell_type_" ]
+
+    [[visualize_diffusion]]
+    name = "Substance"
+    concentration = true
+    gradient = true   
+  
+   [[visualize_diffusion]]
+    name = "Ysubstance"
+    Concentration = true
+    gradient = true 
+
+    [[visualize_diffusion]]
+    name = "Zsubstance"
+    Concentration = true
+    gradient = true 
